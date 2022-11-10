@@ -8,6 +8,7 @@ const TopPage: NextPageWithLayout = () => {
       {[...Array(1000).keys()].map((i) => {
         return (
           <Box
+            key={i}
             height="68px"
             width="100vw"
             bg="tomato"
