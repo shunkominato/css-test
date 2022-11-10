@@ -1,6 +1,6 @@
 import type { ReactElement } from 'react';
 import type { NextPageWithLayout } from './_app';
-import styled from '@emotion/styled';
+import { styled } from '@linaria/react';
 
 const TopPage: NextPageWithLayout = () => {
   const Div = styled.div`
