@@ -5,7 +5,7 @@ import styles from './test.module.scss';
 const TopPage: NextPageWithLayout = () => {
   return (
     <>
-      {[...Array(10).keys()].map((i) => {
+      {[...Array(1000).keys()].map((i) => {
         return <div key={i} className={styles.test} />;
       })}
     </>
