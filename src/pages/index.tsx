@@ -1,20 +1,12 @@
 import type { ReactElement } from 'react';
 import type { NextPageWithLayout } from './_app';
-import styled from '@emotion/styled';
+import styles from './test.module.scss';
 
 const TopPage: NextPageWithLayout = () => {
-  const Div = styled.div`
-    background-color: tomato;
-    width: 100vw;
-    height: 68px;
-    z-index: 11;
-    border: 1px solid;
-    border-color: #e2e8f0;
-  `;
   return (
     <>
-      {[...Array(1000).keys()].map((i) => {
-        return <Div key={i} />;
+      {[...Array(10).keys()].map((i) => {
+        return <div key={i} className={styles.test} />;
       })}
     </>
   );
