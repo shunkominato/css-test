@@ -5,7 +5,8 @@ import { Box } from '@chakra-ui/react';
 const TopPage: NextPageWithLayout = () => {
   return (
     <>
-      {[...Array(1000).keys()].map((i) => {
+      chakra
+      {[...Array(200).keys()].map((i) => {
         return (
           <Box
             key={i}
