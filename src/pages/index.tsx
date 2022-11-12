@@ -13,7 +13,8 @@ const TopPage: NextPageWithLayout = () => {
   `;
   return (
     <>
-      {[...Array(1000).keys()].map((i) => {
+      emotion
+      {[...Array(200).keys()].map((i) => {
         return <Div key={i} />;
       })}
     </>
