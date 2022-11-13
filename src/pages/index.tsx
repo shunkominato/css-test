@@ -14,7 +14,7 @@ const TopPage: NextPageWithLayout = () => {
   return (
     <>
       linaria
-      {[...Array(200).keys()].map((i) => {
+      {[...Array(1000).keys()].map((i) => {
         return <Div key={i} />;
       })}
     </>
