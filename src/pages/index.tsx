@@ -6,7 +6,7 @@ const TopPage: NextPageWithLayout = () => {
   return (
     <>
       chakra
-      {[...Array(200).keys()].map((i) => {
+      {[...Array(1000).keys()].map((i) => {
         return (
           <Box
             key={i}
